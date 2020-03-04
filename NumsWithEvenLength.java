@@ -13,7 +13,7 @@ class Solution {
             int length = 0;
             while(n != 0){
                 n /= 10;
-                length++;
+                length++; 
             }
             if(length % 2 == 0){
                count++;
